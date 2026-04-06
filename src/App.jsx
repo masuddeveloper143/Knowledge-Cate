@@ -1,5 +1,7 @@
 
 import './App.css'
+import Navbar from './components/Navbar/Navbar'
+import 
 
 
 
@@ -10,7 +12,8 @@ function App() {
 
   return (
     <>
-      <h1>react + Knowledge Cate</h1>
+    <Navbar></Navbar>
+    
     </>
   )
 }
