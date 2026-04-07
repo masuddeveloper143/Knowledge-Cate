@@ -3,21 +3,45 @@
     "id": 1,
     "name": "Bottle 1",
     "price": 20,
-    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1169&auto=format&fit=crop",
+    "title": "Premium Glass Bottle",
+    "author": "Ariful Islam",
+    "author_image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740&q=80",
+    "posted_date": "2024-05-15",
+    "reading_time": "5 min",
+    "hashtags": [
+      "#hydration",
+      "#eco-friendly"
+    ]
   },
-  
   {
     "id": 3,
     "name": "Bottle 3",
     "price": 25,
-    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1169&auto=format&fit=crop",
+    "title": "Sporty Water Bottle",
+    "author": "Sara Khan",
+    "author_image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740&q=80",
+    "posted_date": "2024-05-18",
+    "reading_time": "3 min",
+    "hashtags": [
+      "#fitness",
+      "#gym"
+    ]
   },
-
   {
     "id": 6,
     "name": "Bottle 6",
     "price": 19,
-    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8fHww"
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600&auto=format&fit=crop",
+    "title": "Minimalist Desktop Bottle",
+    "author": "Tanvir Ahmed",
+    "author_image": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740&q=80",
+    "posted_date": "2024-05-20",
+    "reading_time": "4 min",
+    "hashtags": [
+      "#lifestyle",
+      "#coding"
+    ]
   }
-  
 ]
