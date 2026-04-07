@@ -1,11 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const blogs = () => {
+const [blogs, setBlogs] = useState([])
+
+
     useEffect(() => {
         fetch('blog.json')
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(data => setBlogs(data))
     }, [])
+
+    console.log(blogs)
     return (
         <div>
 

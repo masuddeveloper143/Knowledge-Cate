@@ -1,19 +1,22 @@
 
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import 
+import Navbar from './components/Navbar/Navbar';
+
+import Blogs from './components/Blogs/Blogs'
 
 
 
 
 
 function App() {
- 
+
 
   return (
     <>
-    <Navbar></Navbar>
-    
+      <Navbar></Navbar>
+      <Blogs></Blogs>
+      
+
     </>
   )
 }
