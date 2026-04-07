@@ -14,8 +14,20 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Blogs></Blogs>
-      
+
+
+      <div className='min-container flex text-center'>
+        <div className='left-container w-[70%]'>
+
+
+
+          <Blogs></Blogs>
+        </div>
+        <div className='right-container w-[30%]'>
+          <h1>Reading Time: 0</h1>
+          <h1> bookmarked count: 0</h1>
+        </div>
+      </div>
 
     </>
   )
