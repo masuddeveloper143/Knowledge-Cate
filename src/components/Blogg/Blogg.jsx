@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaBookmark } from "react-icons/fa6";
 
-const Blogg = ({ blog }) => {
+const Blogg = ({ blog, handleBookmark, handleMarkAsread }) => {
+
     // const {blog} = props;
     // console.log(blog)
     return (
@@ -17,18 +18,18 @@ const Blogg = ({ blog }) => {
                     <div className='flex justify-between items-center'>
                         <h3 className='text-2xl'>{blog.author}</h3>
                         <img className='rounded-full size-18 my-10' src={blog.author_image} />
-                        <FaBookmark  size={29}/>
+                        <button onClick={() => handleBookmark(blog)}> <FaBookmark size={29} /></button>
                     </div>
 
                     <div className='flex'>
                         {
 
-                            blog.hashtags.map((has) => <p>{has}</p>)
+                            blog.hashtags.map((has) => <p key={has}>{has}</p>)
 
                         }
                     </div>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">mark as read</button>
+                        <button onClick={() => handleMarkAsread(blog.reading_time, blog.id)} className="btn btn-primary">mark as read</button>
                     </div>
                 </div>
             </div>
